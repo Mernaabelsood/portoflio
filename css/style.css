@@ -1,0 +1,435 @@
+a, contact-item{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, .navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------------ Nav bar start-------------- */
+
+.navbar-brand{
+    font-size: 18px;
+    font-weight: 800;
+}
+.nav-link{
+    font-size: 14;
+    font-weight: 400;
+    color: black;
+}
+
+/* ----------header--------- */
+header{
+
+    background-image: url(../imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+header h2{
+    font-size: 50px ;
+    font-weight: 800;
+}
+header a{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 10px ;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+header h1::after{
+    content: "";
+    animation: typing 3s infinite alternate;
+
+}
+@keyframes typing {
+    0% {
+        content: 'D|'
+    }
+
+    4% {
+        content: 'De|'
+    }
+
+    8% {
+        content: 'Des|'
+    }
+
+    12% {
+        content: 'Desi|'
+    }
+
+    16% {
+        content: 'Desig|'
+    }
+
+    20% {
+        content: 'Design|'
+    }
+
+    24% {
+        content: 'Designe|'
+    }
+
+    28% {
+        content: 'Designer|'
+    }
+
+    32% {
+        content: 'Designe|'
+    }
+
+    36% {
+        content: 'Design|'
+    }
+
+    40% {
+        content: 'Desig|'
+    }
+
+    44% {
+        content: 'Desi|'
+    }
+
+    48% {
+        content: 'Des|'
+    }
+
+    52% {
+        content: 'De|'
+    }
+
+    56% {
+        content: 'L|'
+    }
+
+    60% {
+        content: 'La|'
+    }
+
+    64% {
+        content: 'Lar|'
+    }
+
+    68% {
+        content: 'Larr|'
+    }
+
+    72% {
+        content: 'Larry|'
+    }
+
+    76% {
+        content: 'Larry D|'
+    }
+
+    80% {
+        content: 'Larry Da|'
+    }
+
+    84% {
+        content: 'Larry Dan|'
+    }
+
+    88% {
+        content: 'Larry Dani|'
+    }
+
+    92% {
+        content: 'Larry Danie|'
+    }
+
+    96% {
+        content: 'Larry Daniel|'
+    }
+
+    100% {
+        content: 'Larry Daniels|'}
+
+}
+
+
+/* ----<About>---- */
+
+.about .progress{
+    height: 20px;
+}
+.about .btn{
+    border: solid 1px #1c1c1c ;
+}
+
+.btn.first:hover{
+
+    background-color: white!important;
+    color: black!important;
+}
+
+.btn.second:hover{
+
+    background-color: black!important;
+    color: white!important;
+}
+
+
+/* -----services Start----- */
+
+.services{
+    background-color: #f7f7f7;
+}
+.services .item{
+    background-color: white;
+    padding: 50px 20px;
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.services span {
+    background-color: #f4f4f4;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    transition: all 0.5s;
+}
+.heading h3{
+    font-size: 40px;
+    font-weight: 900;
+}
+.services p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.services h6{
+    font-size: 18px;
+    font-weight: 800;
+}
+.services .item:hover span{
+background-color: black;
+}
+.services .item:hover i{
+    color: #f4f4f4;
+}
+.services .item i{
+    transition: 0.5s;
+}
+
+/* -----portfolio----- */
+
+.portfolio img{
+    width: 100%;
+
+}
+.portfolio-layer  a{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin: 10px ;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.portfolio-pic{
+    position: relative;
+}
+
+.portfolio-layer {
+background-color: rgba(255, 255, 255, 0.9);
+position: absolute;
+top: 3px;
+bottom: 3px;
+right: 3px;
+left: 3px;
+z-index: 3;
+opacity: 0;
+transition: all 0.5s;
+flex-direction: column ;
+
+}
+
+
+.portfolio-pic:hover .portfolio-layer{
+opacity: 1;
+
+}
+.portfolio a:hover{
+background-color: white;
+color: black;
+border: solid black 1px;
+
+}
+
+.portfolio-layer  a i{
+    font-size: 15px;
+}
+
+.nav-item button{
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+text-transform: capitalize;
+padding-bottom: 40px;
+}
+/* .nav-item button:hover{
+color: black;
+} */
+
+
+
+
+
+/* --------testmonials------- */
+
+
+.testmonial{
+    background-color: #f7f7f7;
+}
+
+.testmonial-content img{
+    width: 100px;
+}
+.testmonial-content p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.testmonial-content h6{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+/* -------our team------ */
+
+.team{
+    background-color: #f7f7f7;
+}
+
+.team-content{
+    background-color: rgb(121, 115, 115);
+    border-radius: 5px;
+}
+.team-content img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.team-content h4,h5{
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+
+    }
+    .team-content h5{
+        padding-bottom: 20px;
+    }
+    .team-layer  a{
+        height: 30px;
+        width: 30px;
+        background-color: black;
+        margin: 10px ;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+    }
+  
+.team-layer {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 3px;
+    bottom: 13px;
+    right: 3px;
+    left: 3px;
+    z-index: 3;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.team-content:hover .team-layer{
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+.team a:hover{
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    
+}
+
+/* -----contact------ */
+
+
+.contact span{
+    background-color: #f4f4f4;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.contact h6{
+    font-size: 16;
+    font-weight: 600;
+}
+.contact p{
+    font-size: 400;
+    font-size: 15px;
+}
+.contact{
+    padding: 0px 200px 20px; 
+}
+.contact .contact-item:hover span{
+background-color: black;
+}
+.contact .contact-item:hover i{
+    color: white;
+}
+.contact i{
+    transition: 0.5s;
+}
+.contact button{
+    background-color: black;
+    border: solid 1px black!important; 
+
+}
+.contact button:hover{
+    color: black !important; 
+}
+
+.form-control:focus{
+    box-shadow: none;
+    outline: none!important;
+    border: 0;
+    background-color: #f4f4f4
+}
+.form-control{
+    background-color: #f4f4f4;
+    border: 0;
+}
+
+/* ----footer--- */
+
+.footer{
+    color: #748182;
+    background-color: #1c1c1c;
+}
+
+
+
+
+
+
+
+    
